@@ -6,5 +6,5 @@ def maa():
 def maaa():
   os.system("python main3.py")
   
-Thread(target=maa)
-Thread(target=maaa)
+Thread(target=maa).start();
+Thread(target=maaa).start();
