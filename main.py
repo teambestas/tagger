@@ -103,7 +103,7 @@ async def start(event):
 
   if event.is_group:
     return await client.send_message(event.chat_id, f"** Gruba eklediğiniz için teşekkürler**\n**Aşağıdaki bazı butonlar size yardım edebilir.**", buttons=(
-                     [Button.url('💡Bota geç',f'https://t.me/{bot_username?start=start')],
+                     [Button.url('💡Bota geç',f'https://t.me/{bot_username}?start=start')],
 	             [Button.url('Sahip 👨‍💻', f'https://t.me/{owner}'),
 		      Button.url('Grup💬', f'https://t.me/{support}')],
                     ),
