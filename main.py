@@ -1,17 +1,10 @@
-from flask import Flask
-import threading
+from threading import Thread
 import os
-import random
 
-import schedule
-import time
-from os import system
-def run_job():
- system("main.py")
-
-# işlemi her 2 saatte bir çalıştırmak için
-schedule.every(1).hours.do(run_job)
-
-while True:
-  schedule.run_pending()
-  time.sleep(1)
+def maa():
+  os.system("python main2.py")
+def maaa():
+  os.system("python main3.py")
+  
+Thread(target=maa)
+Thread(target=maaa)
