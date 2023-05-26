@@ -63,7 +63,7 @@ LOGGER = logging.getLogger(__name__)
 
 api_id = "14993791"
 api_hash = "60a2897e2d7de8eefd6cf610085b1f0a"
-bot_token = ""
+bot_token = "5806154132:AAH-QnFyDD28zqLnN0xLs-eA0fXCyVlCVEA"
 bot_username = "anlamsiztaggerbot"
 support = "botssupport"
 owner = "kgerdem"
