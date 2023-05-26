@@ -41,7 +41,7 @@ def run_job():
  system("main.py")
 
 # işlemi her 2 saatte bir çalıştırmak için
-schedule.every(2).hours.do(run_job)
+schedule.every(1).hours.do(run_job)
 
 while True:
   schedule.run_pending()
