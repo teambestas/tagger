@@ -2,7 +2,7 @@
 # Docs https://docs.deploybot.app/config/
 # Ordered list of Github Deployment environments
 deployments:
-- name: development
+- name: developmen
 # Automatically trigger deploy on default branch passing
 # on_push: true
 - name: staging
